@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Oswald:wght@400;500;600&display=swap');
+body, .editor-styles-wrapper { font-family: 'Jost', sans-serif; color: #14243f; }
+.editor-styles-wrapper .wp-block { max-width: 760px; }
+.editor-styles-wrapper .wp-block[data-align="wide"] { max-width: 1100px; }
+.editor-styles-wrapper .wp-block[data-align="full"] { max-width: none; }
+.editor-styles-wrapper h1, .editor-styles-wrapper h2, .editor-styles-wrapper h3 { font-family: 'Oswald', sans-serif; letter-spacing: -.018em; }
+.nydla-editor-section { max-width: 1160px !important; padding: 30px 36px; border: 1px solid #dce3f1; border-radius: 20px; background: #f8faff; color: #152343; margin-block: 20px; }
+.nydla-editor-section h2 { font-family: 'Oswald',sans-serif; font-size: 2.4rem; line-height: 1.16; margin: 12px 0; }
+.nydla-editor-section p { margin: 10px 0; max-width: 600px; }
+.nydla-editor-eyebrow { font: 700 .72rem 'Jost',sans-serif; letter-spacing: .14em; text-transform: uppercase; color: #596bcc; }
+.nydla-editor-hero { background: linear-gradient(115deg,#101c44,#24205c); color: #fff; border-color: #101c44; }
+.nydla-editor-actions { padding: 14px 0; color: #cbd7ff; }
+.nydla-editor-art { padding: 15px 24px; background: #9181d9; border-radius: 16px; max-width: 440px; font: 600 1.55rem 'Oswald',sans-serif; color: #fff; transform: rotate(-2deg); }
+.nydla-editor-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 20px; }
+.nydla-editor-cards > div { padding: 20px; border-radius: 12px; background: #e8e9fb; }
+.nydla-editor-membership { background: #353d88; color: #fff; }
+.nydla-editor-note { font-size: .84rem; opacity: .75; }
+
+/* v4 Gutenberg Brand Journey preview. */
+.nydla-editor-journey { background:linear-gradient(135deg,#f7f7ff,#eef1ff); }
+.nydla-editor-journey-cards { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.nydla-editor-journey-cards > div { font-weight:700; padding:22px 14px; color:#343f78; }

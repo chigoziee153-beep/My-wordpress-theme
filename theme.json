@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "layout": {
+      "contentSize": "760px",
+      "wideSize": "1160px"
+    },
+    "color": {
+      "palette": [
+        { "slug": "navy", "name": "NYDLA Navy", "color": "#0b1430" },
+        { "slug": "blue", "name": "NYDLA Blue", "color": "#416af2" },
+        { "slug": "violet", "name": "NYDLA Violet", "color": "#8c66ed" },
+        { "slug": "light", "name": "Light Background", "color": "#f5f7fb" },
+        { "slug": "white", "name": "White", "color": "#ffffff" }
+      ]
+    },
+    "spacing": { "padding": true, "margin": true },
+    "typography": {
+      "customFontSize": true,
+      "lineHeight": true,
+      "fontFamilies": [
+        { "name": "Jost", "slug": "jost", "fontFamily": "'Jost', sans-serif" },
+        { "name": "Oswald", "slug": "oswald", "fontFamily": "'Oswald', sans-serif" }
+      ]
+    }
+  },
+  "styles": {
+    "typography": { "fontFamily": "var:preset|font-family|jost" },
+    "elements": {
+      "heading": { "typography": { "fontFamily": "var:preset|font-family|oswald" } }
+    }
+  }
+}
